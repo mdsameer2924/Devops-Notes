@@ -1,0 +1,5 @@
+# This directory is a Syncthing folder marker.
+# Do not delete.
+
+folderID: DEVOPS
+created: 2026-06-01T09:52:47+05:30

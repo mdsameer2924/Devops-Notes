@@ -1,0 +1,1 @@
+to log the key what ever user input give to their keyboard 

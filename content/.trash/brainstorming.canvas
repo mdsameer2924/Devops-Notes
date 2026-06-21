@@ -1,0 +1,17 @@
+{
+	"nodes":[
+		{"id":"1caa33d86c1e1ccb","type":"text","text":"# Openssh-server","x":-260,"y":-200,"width":243,"height":60,"color":"6"},
+		{"id":"7e7df73a7bdf0bd6","type":"text","text":"# SSH","x":-17,"y":-20,"width":117,"height":50,"color":"6"},
+		{"id":"98fc2af7c4527de6","type":"text","text":"## public key","x":-179,"y":130,"width":162,"height":50,"color":"5"},
+		{"id":"f3df82403e13c72d","type":"text","text":"## private key","x":60,"y":130,"width":171,"height":50,"color":"1"},
+		{"id":"22c20d6e64fe19be","x":143,"y":-580,"width":377,"height":360,"color":"3","type":"file","file":"Phase 1/Terminal.md"},
+		{"id":"98f3d6a214c3f16f","x":-55,"y":264,"width":375,"height":176,"color":"2","type":"file","file":"Phase 1/Operating system.md"}
+	],
+	"edges":[
+		{"id":"1a92aaf1aa34ed80","fromNode":"1caa33d86c1e1ccb","fromSide":"bottom","toNode":"7e7df73a7bdf0bd6","toSide":"top"},
+		{"id":"8914bda733495d44","fromNode":"7e7df73a7bdf0bd6","fromSide":"bottom","toNode":"98fc2af7c4527de6","toSide":"top","toEnd":"none"},
+		{"id":"ad4592eaf743167a","fromNode":"7e7df73a7bdf0bd6","fromSide":"bottom","toNode":"f3df82403e13c72d","toSide":"top","toEnd":"none"},
+		{"id":"37e5026ed608ee46","fromNode":"7e7df73a7bdf0bd6","fromSide":"top","toNode":"22c20d6e64fe19be","toSide":"bottom"},
+		{"id":"b816deb19c77427a","fromNode":"f3df82403e13c72d","fromSide":"bottom","toNode":"98f3d6a214c3f16f","toSide":"top","toEnd":"none"}
+	]
+}

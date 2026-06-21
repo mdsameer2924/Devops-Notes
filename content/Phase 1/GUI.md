@@ -1,0 +1,1 @@
+GUI `[Graphical User interface]` is a system where we interact with [[Architecture of Linux#Hardware|hardware]] and [[computer]] using graphics icon button what we see and click the computer perform that exact task 

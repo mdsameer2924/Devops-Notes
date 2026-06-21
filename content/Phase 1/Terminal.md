@@ -1,0 +1,1 @@
+it's a [[Application Software]] means part of [[Architecture of Linux#Application Layer|Application layer]] we use this application to give shell command basically use [[Architecture of Linux#Shell| shell]] to interact with kernal 

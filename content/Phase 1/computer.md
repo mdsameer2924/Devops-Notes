@@ -1,0 +1,1 @@
+Computer is an electronic and digital device which compute the problem and process the data and give reliable output 

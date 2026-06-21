@@ -1,0 +1,1 @@
+CLI `[Command line Interface]` is a System where we interact with Hardware using command. Using ASCII values symbols to interact with Hardware 
