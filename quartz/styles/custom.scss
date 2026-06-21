@@ -1,3 +1,86 @@
 @use "./variables.scss" as *;
 
-// put your custom CSS here!
+// 1. HYPERLINK TEXT OPTIMIZATION
+a.internal {
+  background-color: transparent !important;
+  color: #a394f0 !important; 
+  text-decoration: none;
+  transition: color 0.2s ease;
+
+  &:hover {
+    background-color: transparent !important;
+    color: #c084fc !important; 
+    text-decoration: underline;
+  }
+}
+
+// 2. OFFICIAL QUARTZ GRAPH VIEW LOOK & FEEL
+// .theme-dark.theme-dark, 
+// body, 
+// :root {
+//   // This gives you the high-contrast lines and node highlights like the official site
+//   --secondary: #ebebec !important;      // Main nodes (The official blue-gray)
+//   --lightgray: #444446 !important;      // Connecting lines (Bright enough to see clearly)
+//   --gray: #ffffff !important;           // Highlighted edges on hover (Matches your purple links)
+//   --dark: #ffffff !important;           // Text labels when hovered
+// }
+
+// .graph {
+//   background-color: transparent !important;
+//   opacity: 1 !important;
+//   display: block !important;
+
+//   .graph-label {
+//     fill: #ebebec !important; 
+//     opacity: 0.8 !important;            // Slightly softer text for elegance
+//     font-size: 11px !important;
+//     font-weight: 500;
+//   }
+
+//   canvas, svg {
+//     display: block !important;
+//     opacity: 1 !important;   
+//     filter: drop-shadow(0 0 1px rgba(0,0,0,0.5)) !important;
+//   }
+// 2. FORCED MONOCHROME GRAPH VIEW OVERRIDES (Beats Theme Plugins)
+.graph {
+  background-color: transparent !important;
+  opacity: 1 !important;
+  display: block !important;
+
+  // Force all non-focused/standard nodes to be white/whitish-grey
+  canvas, svg {
+    display: block !important;
+    opacity: 1 !important;   
+    filter: drop-shadow(0 0 1px rgba(0,0,0,0.5)) !important;
+  }
+
+  // If Quartz uses SVG rendering for the nodes/edges:
+  circle {
+    fill: #ebebec !important;       // Whitish-grey for standard nodes
+    stroke: #444446 !important;     // Subtle grey borders
+    
+    &.focused {
+      fill: #ffffff !important;     // Bright white on hover
+    }
+  }
+
+  line {
+    stroke: #444446 !important;     // Clean, crisp connecting lines
+    stroke-opacity: 0.6 !important;
+  }
+
+  .graph-label {
+    fill: #ebebec !important; 
+    opacity: 0.8 !important;            
+    font-size: 11px !important;
+    font-weight: 500;
+  }
+}
+
+// Global root fallback override just to be absolutely certain
+:root {
+  --secondary: #ebebec !important;  
+  --lightgray: #444446 !important;  
+  --gray: #ffffff !important;       
+}
