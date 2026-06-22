@@ -7,7 +7,7 @@ There are 4 major layers in [[Linux]] Architecture
 ## Application Layer 
 a layer which refers to the Application software used to utilize the **[[Operating system]]**
 using Applications software like
-- vscode 
+- [[vscode]] 
 - [[Terminal]]
 
 ## Shell 
