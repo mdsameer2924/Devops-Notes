@@ -6,3 +6,5 @@
 4. [[Docker]]
 -----------------
 ## Phase 2 [Core DevOps]
+1. [[Github action]] : CI/CD pipline
+2. 
