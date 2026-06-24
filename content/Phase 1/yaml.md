@@ -16,6 +16,7 @@ num: 34
 human:
   name: "sameer"
   age: 45
+  color: "brown"
   
 ```
 
