@@ -5,4 +5,4 @@ before create partition here are some prerequisites
 - enough disk space already in disk not full 
 - Partition tool installed in Linux system  like [[fdisk]] , [[parted]]
 
-then 
+then, need to [[Understand Partition Table]]
