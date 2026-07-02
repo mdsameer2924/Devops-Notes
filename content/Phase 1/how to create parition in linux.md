@@ -17,7 +17,7 @@ after this command go to each label and check `gpt` or `dos`,
 **dos** refers to MBR partitions tables used 
 
 >[! Attention ]+
->Disk label not `appeared` Disk is clean and no partition in disk yet !
+> Disk label not `appeared` Disk is clean and no partition in disk yet !
 > ![[clearndisknoparition.png]]
 > 
 >
