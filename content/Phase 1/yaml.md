@@ -21,4 +21,3 @@ human:
 ```
 
 
-<iframe src="https://www.programiz.com/online-compiler/1gyhTQp26uiDw" width="100%" height="500px" frameborder="0"></iframe>
