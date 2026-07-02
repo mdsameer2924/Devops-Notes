@@ -21,6 +21,27 @@ after this command go to each label and check `gpt` or `dos`,
 >  ![[clearndisknoparition.png]]
 
 
-## To Identify disk
+### Identify target disk or partition
+before do any partition select correct disk or partition,
+wrong disk might be data lost,
+
+#### fdisk -l or lsblk 
+we can check the disk list of partitions using these two command 
+**lsblk** provide clean tree format of disk unlike **fdisk** which provide verbose detailed 
+disk listing 
+
+```bash
+lsblk #list disk blocks
+```
+![[Pasted image 20260702174726.png]]
+
+as we show our disk is `nvme0n1` means it's disk 1 
+if there would be other disk it's shows `nvme0n2` as well 
+**Conceptual Understanding**
+- my disk shows `sda` 
+- some system might be shows `nvme0n1` or `sdb` 
+it's depend  system use `hdd` or `sata ssd`
+- **sata ssd & hhd :** sda 
+- **nvme ssd :** nvme0nx , where x is disk number 
 
 
