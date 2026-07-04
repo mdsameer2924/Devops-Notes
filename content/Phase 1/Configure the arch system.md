@@ -1,6 +1,7 @@
 ## Table of Content
 - [[Configure the arch system#Make Your Partition persistent|Make Your Partition persistence]]
 -  [[Configure the arch system#Chroot|Chroot]]
+- [[Configure the arch system#Basic configuration|Basic Configuration]] optional but recommended
 ### Make  Your Partition persistent 
 as you earlier  [[Arch linux partition#mount partition|mount]]  partition using `mount` as a temporary to make it persistence
 enter partition entries into `/etc/fstab`
@@ -53,10 +54,21 @@ now live boot terminal change it's root to mount partition root
 
 
 
+### Basic configuration 
+after using [[Chroot]] you basically use root in main OS not live boot,
+means whatever configuration you do it's directly effect the main arch O.S 
+as you boot into main O.S that done in advance 
+but it's optional right now 
+to configure like 
+- [Time](https://wiki.archlinux.org/title/Installation_guide#:~:text=For%20human%20convenience%20(e.g.%20showing%20the%20correct%20local%20time%20or%20handling%20Daylight%20Saving%20Time)%2C%20set%20the%20time%20zone%3A)
+- [Localization](https://wiki.archlinux.org/title/Installation_guide#:~:text=To%20use%20the,locales%20by%20running%3A)
+- [Network configuration](To assign a consistent, identifiable name to your system (particularly useful in a networked environment), [create](https://wiki.archlinux.org/title/Create "Create") the [hostname](https://wiki.archlinux.org/title/Hostname "Hostname") file)
 
+> [!info] 
+> These configuration is optional right now we can do it letter in [[Post arch installtion]]
 
-
-
+**Next Step**
+[[Arch Boot loader setup]]
 
 
 ### See also

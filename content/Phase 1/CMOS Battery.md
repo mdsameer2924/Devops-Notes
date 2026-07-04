@@ -1,0 +1,1 @@
+**CMOS** is a coin sized battery inserted into motherboard 
