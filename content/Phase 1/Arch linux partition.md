@@ -1,4 +1,4 @@
-
+[[Arch]]
 ## Table of Content
 - [[Arch linux partition#format for Arch|Format for Arch]]
 - [[Arch linux partition#mount partition|mount partition]]

@@ -1,3 +1,4 @@
+[[Arch]]
 package mirror list with download url stored into 
 **Path**: `/etc/pacman.d/mirrorlist` we can inspect these package mirror list 
 and edit according or leave it default 
