@@ -7,7 +7,7 @@ as you earlier  [[Arch linux partition#mount partition|mount]]  partition using 
 enter partition entries into `/etc/fstab`
 
 ```bash
-genfstab -U /mnt /mnt/etc/fstab
+genfstab -U /mnt >> /mnt/etc/fstab
 ```
 
 because of liveboot arch  `/mnt/etc/fstab`

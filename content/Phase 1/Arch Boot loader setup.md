@@ -91,8 +91,26 @@ umount -R /mnt #unmount all partition root and efi
 reboot
 ```
 
-
-
+### IF still arch not bootinto main system make sure there file directory exact like
+```bash
+└── boot/
+    ├── vmlinuz-linux              <-- The actual Linux Kernel
+    ├── initramfs-linux.img        <-- The initial RAM disk (drivers loaded before root)
+    │
+    ├── efi/                       <-- Mount point for your EFI Partition (/dev/sda2)
+    │   └── efi/
+    │       ├── BOOT/
+    │       │   └── BOOTX64.EFI    <-- Default fallback UEFI bootloader
+    │       └── GRUB/
+    │           └── grubx64.efi    <-- The actual GRUB binary executed by your motherboard
+    │
+    └── grub/                      <-- GRUB configuration and assets directory
+        ├── grub.cfg               <-- THE MAIN CONFIG FILE (what was empty before)
+        ├── grubenv                <-- GRUB environment variables storage
+        ├── x86_64-efi/            <-- Internal GRUB modules (.mod files) for filesystems/features
+        └── themes/
+            └── starfield/         <-- Visual assets, fonts, and images for the boot menu
+```
 ### Troubleshoot Problem 
 start with Why ?
 	error occur because  I am using **Legacy BOIS** but `efibootmgr` is **UEFI compatible**.
@@ -105,3 +123,4 @@ and after this tried again then  work
 ![[Pasted image 20260704183344.png]]
 #### see also
 [refer](https://wiki.archlinux.org/title/Arch_boot_process#Boot_loader)
+[user-freindly](https://arch.d3sox.me/installation/)
