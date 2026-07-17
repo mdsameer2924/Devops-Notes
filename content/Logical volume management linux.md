@@ -1,3 +1,4 @@
+**Related :** { [[Linux]] , [[Disk Management]] }
 logical volume management is a way of creating or increase the storage size using logical volume instead limit by block it's work flexible, and can be increase storage size with zero downtime
 
 first have multiple partition
