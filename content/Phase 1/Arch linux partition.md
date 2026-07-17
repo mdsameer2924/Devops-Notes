@@ -51,6 +51,7 @@ file result after this:
 ![[Pasted image 20260702202016.png]]
 
 **Next Step** 
+[[Persistent mounting in Linux]]
 [[Installation crucial package]]
 
 

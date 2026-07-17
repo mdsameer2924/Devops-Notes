@@ -122,4 +122,6 @@ mkfs.ext4 /dev/sda1 #make sure correct partition
 ```
 > to do this data lost inevitable make sure untouched partition or target partition formatting you do.
 
+
+[[Persistent mounting in Linux]]
 [[Arch linux partition]]
