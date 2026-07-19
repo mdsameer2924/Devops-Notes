@@ -16,7 +16,7 @@ pacstrap -K /mnt base linux linux-firmware
 ```
 **What it does install ?**
 - installed all drivers file like , wifi, bluetooth
-- installed [[Systemd]] 1st process  
+- installed [[Systemd 1]] 1st process  
 - install and assign [[User and group|group]] and it's ID
 and too many base package installed which is very crucial for booting system
 
